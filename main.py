@@ -9,10 +9,10 @@ if __name__ == '__main__':
 
 
     try:
-        connection = mysql.connector.connect(host='34.67.86.107',
+        connection = mysql.connector.connect(host='localhost',
                                              database='dataengineer',
                                              user='root',
-                                             password='Rayray@1994')
+                                             password='123456')
         if connection.is_connected():
 
             db_Info = connection.get_server_info()
